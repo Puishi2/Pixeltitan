@@ -1,0 +1,7 @@
+name: TitanJump
+author: Puishi
+version: 1.0
+main: de.Puishi.TitanJump.TitanJump
+commands:
+  setup:
+  start:

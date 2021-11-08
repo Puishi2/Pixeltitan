@@ -1,0 +1,11 @@
+name: Bauserver
+author: Puishi
+version: 1.0
+main: de.Puishi.Bauserver.Bauserver
+commands:
+  setspec:
+  gm:
+  day:
+  night:
+  world:
+  createworld:

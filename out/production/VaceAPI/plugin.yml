@@ -1,0 +1,12 @@
+name: VaceAPI
+author: Siggi
+version: 1.0
+main: de.vacebuild.api.main.VaceAPI
+commands:
+  gamemode:
+    aliases: [gm]
+  vanish:
+  build:
+  clear:
+  teleport:
+    aliases: [tp]

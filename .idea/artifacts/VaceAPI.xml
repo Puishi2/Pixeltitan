@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="VaceAPI">
+    <output-path>$PROJECT_DIR$/out/artifacts/VaceAPI</output-path>
+    <root id="archive" name="VaceAPI.jar">
+      <element id="module-output" name="VaceAPI" />
+    </root>
+  </artifact>
+</component>

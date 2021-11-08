@@ -1,0 +1,5 @@
+name: Bungeesystem
+author: Puishi
+version: 1.0
+main: de.Puishi.Bungeesystem.Bungeesystem
+commands:

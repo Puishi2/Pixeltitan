@@ -1,0 +1,6 @@
+name: BedWars
+author: Puishi
+version: 1.0
+main: de.Puishi.BedWars.Main
+commands:
+  setup:

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>PixelTitan</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>BuildServer-Konzept</artifactId>
+
+    <repositories>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+
+        <repository>
+            <id>cloudnet-releases</id>
+            <name>CloudNet Release Repository</name>
+            <url>https://repo.cloudnetservice.eu/repository/releases/</url>
+        </repository>
+
+    </repositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>de.Puishi</groupId>
+            <artifactId>SpigotAPI</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/spigot.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>de.dytanic.cloudnet</groupId>
+            <artifactId>cloudnet-api-bridge</artifactId>
+            <version>2.1.17</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>de.dytanic.cloudnet</groupId>
+            <artifactId>cloudnet-core</artifactId>
+            <version>2.1.17</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>de.javaarray</groupId>
+            <artifactId>CoinsAPI</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/CoinsAPI-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+
+    </dependencies>
+
+
+</project>

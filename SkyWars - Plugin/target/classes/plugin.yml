@@ -1,0 +1,13 @@
+name: SkyWars
+author: Puishi
+version: 1.0
+main: de.Puishi.SkyWars.Main
+commands:
+  setup:
+    description: Setup
+  start:
+    description: Starte das Spiel
+  forcemap:
+    description: Forcemap
+  stats:
+    description: Stats

@@ -1,0 +1,8 @@
+name: Trialsystem
+author: Siggi
+version: 1.0
+main: de.vacebuild.trial.main.Trialsystem
+commands:
+  set:
+  finish:
+  visitworld:

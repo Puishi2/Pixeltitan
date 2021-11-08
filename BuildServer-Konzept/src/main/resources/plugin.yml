@@ -1,0 +1,6 @@
+name: Konzept
+author: Puishi
+version: 1.0
+main: de.Puishi.Konzept.Konzept
+commands:
+  setup:

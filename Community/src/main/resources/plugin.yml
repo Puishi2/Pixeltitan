@@ -1,0 +1,16 @@
+name: Community
+version: 1.0
+author: Punikii
+main: es.Punikii.Community.Community
+commands:
+  setspawn:
+  setbuehne:
+  setscreen:
+  setteam:
+  fly:
+  build:
+  seteffect1:
+  seteffect2:
+  seteffect3:
+  seteffect4:
+  settb:

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Bungeesystem" />
+        <module name="Lobby" />
+        <module name="Lottery - Plugin" />
+        <module name="Community" />
+        <module name="Bauserver - Plugin" />
+        <module name="BuildServer-Konzept" />
+        <module name="TitanJump" />
+        <module name="BedWars - Plugin" />
+        <module name="Teamspeakbot" />
+        <module name="Summerwars" />
+        <module name="SkyWars - Plugin" />
+        <module name="TitanJump-Recode" />
+        <module name="Trial" />
+        <module name="Teambesprechung - Plugin" />
+        <module name="BuildServer-Lobby" />
+        <module name="BedWars" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Lobby - Plugin" target="8" />
+      <module name="MLG-Rush" target="8" />
+      <module name="MLG-Rush - Plugin" target="8" />
+      <module name="VaceAPI" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

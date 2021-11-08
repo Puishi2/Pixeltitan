@@ -1,0 +1,18 @@
+name: MLGWars
+version: 1.0
+author: Punikii
+main: es.Punikii.MLGWars.MLGWars
+commands:
+  setspawn:
+  build:
+  setpos1:
+  setpos2:
+  setpos3:
+  setpos4:
+  setpos5:
+  setpos6:
+  setshop:
+  pvp1:
+  pvp2:
+  pvp3:
+  pvp4:
